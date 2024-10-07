@@ -125,8 +125,8 @@
 // }));
 
 // filter ........................................
-let arrone = new Array(1, 2, 3, 1, 4, 1);
-let empty = [722121,72121,72112,71211];
+// let arrone = new Array(1, 2, 3, 1, 4, 1);
+// let empty = [722121,72121,72112,71211];
 
 // let var2= empty.concat(arrone);  ...........  // agr array ku akhta krna chchta hai hm to concat b acha optionrhy ga 
 // console.log(var2)
@@ -145,10 +145,60 @@ let empty = [722121,72121,72112,71211];
 
 // .......  pop
 // resultone=[33,43,34,54,6,77,88];
-// empty.push(resultone);
+// empty.pop();
 // console.log(empty) 
 
 // resultone=[33,43,34,54,6,77,88];
 // console.log(resultone);
 // .........Tested all prototypes
+
+// .......... shift and unshift 
+// a=[33,43,34,54,6,77,88];
+// let b=a.shift();
+// console.log(b);
+// console.log(a);
+// a=[33,43,34,54,6,77,88];
+// let b=a.unshift(99);
+// console.log(b);
+
+// // .......... slice and splice
+// let a=[33,43,34,54,6,77,88];    ....// slice new rray return krta hai or is ma last range include ni hogi 
+// let b=a.slice(0,3);
+// console.log(b);
+
+// .......... slice and splice
+// let a=[33,43,34,54,6,77,88];    //... slice new rray return krta hai or is ma last range include ni hogi 
+// let b=a.slice(0,3);
+// console.log(b);
+// console.log(a);
+
+// let a=[33,43,34,54,6,77,88];       //... splice new rray return krta hai or is ma last range include hogi 
+// let b =a.splice(0,3);              //... splice existing array ma b chcnge krta hai 
+// console.log(b);
+// console.log(a);                    
+
+// ............................object are of two tyoes 
+// ....Object singleton
+// ....object literals
+
+// here lets practice object litrals 
+// let obj1 = {
+//   num2: 1,
+//   name: "zain",
+//   lastname:"Taseer",
+//   "full name":"zain Taseer Developer",
+//   login: false,
+//   objfordunc: {
+//     hi: 1,
+//     hj: "Nested obj me here"  // Yahaan comma hona chahiye
+//   },
+//   funcforobj: function(a) {
+//     console.log(6 + 3+a+this.num2);
+//   }
+// };
+
+// obj1["full name"]="nani";
+// // console.log(obj1.funcforobj(21));
+// console.log(obj1["full name"]);
+
 
