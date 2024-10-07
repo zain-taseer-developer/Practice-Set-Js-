@@ -117,3 +117,38 @@
 //   console.log(`result old:   ${vals}`);
 // }))     
 
+// find ...........................................
+// let arrone=new Array(1,2,3,1,4,1);
+
+// console.log(arrone.find((Element)=>{
+//  return Element>2;
+// }));
+
+// filter ........................................
+let arrone = new Array(1, 2, 3, 1, 4, 1);
+let empty = [722121,72121,72112,71211];
+
+// let var2= empty.concat(arrone);  ...........  // agr array ku akhta krna chchta hai hm to concat b acha optionrhy ga 
+// console.log(var2)
+
+// empty.push(arrone);   ...................... // is trha ya dono arrays ko hm akhta ni kr skain gy , ku ky ya aik array ko utha k us k andr rkh data hai 
+
+ 
+
+// empty.push(...arrone);  ...................  // ya option b thek hai 1 array ko 2sra arry ma dalna ka 
+// console.log(empty);
+
+// ....... push  in array 
+// resultone=33
+// empty.push(resultone);
+// console.log(empty)     
+
+// .......  pop
+// resultone=[33,43,34,54,6,77,88];
+// empty.push(resultone);
+// console.log(empty) 
+
+// resultone=[33,43,34,54,6,77,88];
+// console.log(resultone);
+// .........Tested all prototypes
+
