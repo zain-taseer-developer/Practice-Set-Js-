@@ -107,7 +107,7 @@
 // let arrOriginal=["one","two","three",["four","five"]];
 // // let clonnedarr=[...arrOriginal];
 // let clonnedarr=JSON.parse(JSON.stringify(arrOriginal));
-// clonnedarr[3][0]="new lun";
+// clonnedarr[3][0]="new newarrhere";
 
 // console.log(arrOriginal.map((vals)=>{
 //   console.log(`result new:   ${vals}`);
@@ -124,16 +124,14 @@
 //  return Element>2;
 // }));
 
-// filter ........................................
+// Mixing of arrays ........................................
 // let arrone = new Array(1, 2, 3, 1, 4, 1);
 // let empty = [722121,72121,72112,71211];
 
-// let var2= empty.concat(arrone);  ...........  // agr array ku akhta krna chchta hai hm to concat b acha optionrhy ga 
+// let var2= empty.concat(arrone);  ...........  // agr array ko akhta krna chchta hai hm to concat b acha oppertunity rhy ga 
 // console.log(var2)
 
 // empty.push(arrone);   ...................... // is trha ya dono arrays ko hm akhta ni kr skain gy , ku ky ya aik array ko utha k us k andr rkh data hai 
-
- 
 
 // empty.push(...arrone);  ...................  // ya option b thek hai 1 array ko 2sra arry ma dalna ka 
 // console.log(empty);
@@ -181,24 +179,55 @@
 // ....Object singleton
 // ....object literals
 
-// here lets practice object litrals 
+// ->>>>>>>>    here lets practice object litrals 
 // let obj1 = {
-//   num2: 1,
-//   name: "zain",
-//   lastname:"Taseer",
-//   "full name":"zain Taseer Developer",
-//   login: false,
-//   objfordunc: {
-//     hi: 1,
-//     hj: "Nested obj me here"  // Yahaan comma hona chahiye
-//   },
-//   funcforobj: function(a) {
-//     console.log(6 + 3+a+this.num2);
+  //   num2: 1,
+  //   name: "zain",
+  //   lastname:"Taseer",
+  //   "full name":"zain Taseer Developer",
+  //   login: false,
+  //   objfordunc: {
+    //     hi: 1,
+    //     hj: "Nested obj me here"  // Yahaan comma hona chahiye
+    //   },
+    //   funcforobj: function(a) {
+      //     console.log(6 + 3+a+this.num2);
 //   }
 // };
 
 // obj1["full name"]="nani";
 // // console.log(obj1.funcforobj(21));
 // console.log(obj1["full name"]);
+
+// ->>>>>>>>    here lets practice object singleton 
+// let obj1=new Object();
+// obj1.id=23;
+// console.log(obj1["id"]);
+
+
+// ----->   mixing of objects ( means kis trha hm object ko akhta krain )
+// obj1={
+//   num1: 1,
+//     name1: "zain",
+//     lastname1:"Taseer",
+//     "full name1":"zain Taseer Developer",
+// }
+
+// obj2={
+//   num2: 12,
+//     name2: "zain2",
+//     lastname2:"Taseer2",
+//     "full namee2":"zain Taseer Developer2",
+//     haha:{
+//       one:1,
+//       two:2
+//     }
+// }
+
+// let mixobjs={...obj1,...obj2};
+// let mixobjs=Object.assign({},obj1,obj2);
+// console.log(mixobjs["lastname2"]);
+// document.write( Object.values(obj2));  isi trha objects k kuch builtin fmethods hain 
+
 
 
