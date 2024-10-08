@@ -231,3 +231,23 @@
 
 
 
+//........... object de-structuring 
+// let obj2={
+//   num2: 12,
+//     name2: "zain2",
+//     lastname2:"Taseer2",
+//     "full namee2":"zain Taseer Developer2",
+// }
+
+// let {name2:n2}=obj2;
+// console.log(n2);
+// Scope in js /................
+// let a="billa";
+// function func(){        //means global andr available hai 
+// console.log("here is tested scope "+a);
+// // let a="ali";         
+// // or local bahir available ni hai 
+// }
+
+// func();
+// console.log(a);
