@@ -252,27 +252,71 @@
 // func();
 // console.log(a);
 
-
-//   practice of loops 
+//   ..........    practice of loops 
 // for loop below 
 // for(let i=0; i<=20; i++){
 // console.log(`value of i is ${i}`);
 // }
 
-// for loop for array
+// ..............   for loop for array
 // let arr=["sasaa",2,3,5,6,90];
 // for(let i=0; i<arr.length; i++){
 //   console.log(`value of i is ${arr[i]}`);
 //   }
 
-// for loop for object 
-let arr={
-  sasaa:'ONEval',
-  2:'twoval',
-  3:'threeval',
-  5:'fourval',
-  6:'fiveval',
-  90:'sixval'};
-for(let i=0; i<arr.length; i++){
-  console.log(`value of i is ${arr[i]}`);
-  }
+// ...............  for loop for object 
+// let obj={
+//   sasaa:'ONEval',
+//   2:'twoval',
+//   3:'threeval',
+//   5:'fourval',
+//   6:'fiveval',
+//   90:'sixval'
+// };
+// for(let i=0; i<Object.keys(obj).length; i++){
+//   let key=Object.keys(obj)[i];
+//   // console.log(key);
+//   console.log(`value of i is ${obj[key]}`);
+//   }
+
+// ..............  for in loop  in object 
+// let obj={
+//   sasaa:'ONEval',
+//   2:'twoval',
+//   3:'threeval',
+//   5:'fourval',
+//   6:'fiveval',
+//   90:'sixval'
+// };
+// for (const key in obj) {
+//  console.log(`keys are : ${key} and values are ${obj[key]}`);
+// }
+
+//  ...............   for of loop    in array 
+// let arr=[
+//   "ONEval",
+//   "twoval",
+//   "threeval",
+//   "fourval",
+//   "fiveval",
+//   "sixval"
+// ];
+// for (const element of arr) {
+//   console.log(element);
+// }
+
+// .............   foreach loop for array
+// let arr=[
+//     "ONEval",
+//     "twoval",
+//     "threeval",
+//     "fourval",
+//     "fiveval",
+//     "sixval"
+//   ];
+
+//   arr.forEach((element,index,arrayhere)=>{
+// console.log(`arr values are : ${element} and index are : ${index} and whole arr is ${arrayhere}`)
+//   });;
+
+
