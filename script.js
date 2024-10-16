@@ -251,3 +251,28 @@
 
 // func();
 // console.log(a);
+
+
+//   practice of loops 
+// for loop below 
+// for(let i=0; i<=20; i++){
+// console.log(`value of i is ${i}`);
+// }
+
+// for loop for array
+// let arr=["sasaa",2,3,5,6,90];
+// for(let i=0; i<arr.length; i++){
+//   console.log(`value of i is ${arr[i]}`);
+//   }
+
+// for loop for object 
+let arr={
+  sasaa:'ONEval',
+  2:'twoval',
+  3:'threeval',
+  5:'fourval',
+  6:'fiveval',
+  90:'sixval'};
+for(let i=0; i<arr.length; i++){
+  console.log(`value of i is ${arr[i]}`);
+  }
