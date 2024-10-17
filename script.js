@@ -369,3 +369,17 @@
 // console.log(sum); 
 
 
+///////////////////////////////////////////////////////////   ******************   ///////////////
+
+// DOM 
+// innerText: Sirf wo text return karta hai jo actually webpage pe dikh raha hota hai. Yeh CSS styles (like display: none, visibility: hidden) ko follow karta hai. Agar koi text hidden ho ya style ke through visible na ho, toh innerText usse ignore kar deta hai.
+
+// textContent: Saare text ko return karta hai jo element ke andar hota hai, chahe wo hidden ho ya visible. Yeh CSS properties ko ignore karta hai aur har text ko capture karta hai.
+
+let b= document.getElementById('h3hereid').innerText;
+console.log(`a: ${b}`);
+
+let a= document.getElementById('h3hereid').textContent;
+console.log(`a: ${a}`);
+
+
