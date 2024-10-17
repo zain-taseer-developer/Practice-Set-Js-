@@ -319,4 +319,53 @@
 // console.log(`arr values are : ${element} and index are : ${index} and whole arr is ${arrayhere}`)
 //   });;
 
+// // ..............  while or do while loops
+//          while 
+// let arr=[2,3,5,6,7,8]; 
+// let count=0;
+// while (count<arr.length) {
+//   console.log(arr[count]);
+//   count++;
+// }
+
+//       do while 
+// let arr=[2,3,5,6,7,8]; 
+// let count=0;
+// do{
+//   count++;
+// document.write(`this is do part <br>`);
+// }while(count<arr.length);
+
+//   ....................   filter , map , reduce 
+// filter    >>>>>>>>>>>>>>>>>>>>>>>>
+// let arr=[2,3,5,6,7,8]; 
+// let filteredVals=arr.filter((valsall)=>{
+//  return (valsall>3);
+// });
+
+// document.write(filteredVals);
+
+// map   >>>>>>>>>>>>>>>>>>
+// let arr=[2,3,5,6,7,8]; 
+// let result=arr.map((vallAll)=>{
+// return (vallAll+1);
+// })
+
+// console.log(result);
+
+// reduce >>>>>>>>>>>
+// syntax below start   
+// array.reduce((accumulator, currentValue, currentIndex, array) => {
+// Operation on accumulator and currentValue
+  // return accumulator;
+// }, initialValue);
+// syntax above ends 
+
+// reduce example 
+// let arr=[1,2,3];
+// let sum = arr.reduce((accuVal, initialVal) => {
+//  return (accuVal + initialVal);
+// },0);
+// console.log(sum); 
+
 
