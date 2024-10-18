@@ -376,10 +376,24 @@
 
 // textContent: Saare text ko return karta hai jo element ke andar hota hai, chahe wo hidden ho ya visible. Yeh CSS properties ko ignore karta hai aur har text ko capture karta hai.
 
-let b= document.getElementById('h3hereid').innerText;
-console.log(`a: ${b}`);
+// let b= document.getElementById('h3hereid').innerText;
+// console.log(`a: ${b}`);
 
-let a= document.getElementById('h3hereid').textContent;
-console.log(`a: ${a}`);
+// let a= document.getElementById('h3hereid').textContent;
+// console.log(`a: ${a}`);
 
+// ......................  how we deal with elements classes as it return HTML collection
+// in this way , we convert html collection to an Array then easily we use array methods in it 
+// let classes=document.getElementsByClassName('classes');
+// let convertItToArray=Array.from(classes);
+// console.log(convertItToArray.forEach((vals)=>{
+// vals.style.backgroundColor = "red";
+// }));
+
+// this is not only one way to deal with html collection there are many other ways like below for loop 
+// let classes=document.getElementsByClassName('classes');
+// for(let i=0; i<=classes.length; i++){
+//   console.log(classes[i]);
+//   classes[i].style.backgroundColor = "red";
+// }
 
