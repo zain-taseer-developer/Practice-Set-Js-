@@ -397,3 +397,38 @@
 //   classes[i].style.backgroundColor = "red";
 // }
 
+
+// ......................   .......  some more selectors 
+// Queryselector and QueryselectorAll
+// Query selector will return us a Nodelist we can go to its prototypes and from these we get foreach idea so we apply 
+// let classes=document.querySelectorAll('.classes');
+// classes.forEach((e)=>{
+// e.style.backgroundColor = "red";
+// })
+
+// spread and rest operator in array 
+// rest oparator here 
+// function naizi(a,b,c,...restall){
+// console.log(a,b,c);
+// console.log(restall[2]);
+// }
+// naizi(2,5,7,4,5,3);
+
+// spread operator here 
+// let a=[32,43,54,6576,34,32,24,3]
+// function wazir(a,b){
+// console.log(`Here value of a is : ${a} and b is : ${b}`);
+// }
+// wazir(...a);
+
+
+
+// Some thing confussuion here 
+// let arr2=[1,4,3,2,5,6];
+// arr2.forEach((num)=>{
+//   console.log(num);
+//   if(num==3){
+//     // return;
+//     arr2.length=0;
+//   }
+// })
