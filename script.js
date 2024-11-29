@@ -28,7 +28,7 @@
 // let confirmvalues= (symbol1==symbol2);
 // console.log(confirmvalues);
 
-// Stact and Heap MEMORY
+// Stack and Heap MEMORY
 // Primitive	
 //  Examples: string, number, boolean, null, undefined, symbol, bigint	
 //  in primitive stact memory used 
